@@ -53,7 +53,7 @@ p {
 
 .nav-link {
     font-size: 1.2rem;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 
@@ -137,6 +137,39 @@ p {
 .pricing-column {
     padding: 3% 2%;
 }
+
+
+/* CTA */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-heading {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Footer */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    color: #8f8f8f;
+}
+
+
+/* Media Query for Responsiveness */
 
 @media (max-width: 1028px) {
     #title {
